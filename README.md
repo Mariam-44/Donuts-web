@@ -51,21 +51,6 @@
 
 ## 🧱 File Structure
 
-├── Donutailo/
-│ ├── index.html # Home Page
-│ ├── about.html # About Page
-│ ├── order.html # Donut Order Page
-│ ├── contact.html # Contact Form Page
-│ ├── CSS/
-│ │ └── style.css # (Empty or unused per HTML-only restriction)
-│ └── imgs/
-│ ├── donut.png
-│ ├── background.png
-│ ├── about-img.webp
-│ ├── card1.webp
-│ ├── card2.webp
-│ └── card3.webp
-
 ├── Task 3/
      ├── CSS/
      │    └── style.css # (Empty or unused per HTML-only restriction)  
