@@ -8,7 +8,7 @@
 
 ## ✅ Features Included
 
-- **🧭 Navigation Bar** on all pages with links to Home, About, Order, and Contact sections
+- **🧭 Navigation Bar** with links to Home, About, Order, and Contact sections
 - **🏠 Homepage** (`index.html`):
   - Header with logo, navigation links, login/signup buttons
   - Marketing message and CTA buttons (“Order Now”, “Contact Us”)
