@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" type="x-icon" href="../imgs/donut.png">
+    <link rel="shortcut icon" type="x-icon" href="../imgs/donut.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
   </head>
   <body>
     <div class="Contact">
-        <br><br><br>
+      <br /><br /><br />
       <table width="90%" align="center" cellspacing="0" cellpadding="50">
         <tr>
           <td width="50%" align="center" valign="top">
@@ -19,6 +19,7 @@
               style="border: 0"
               allowfullscreen=""
               referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Our store location"
             ></iframe>
           </td>
 
@@ -34,6 +35,7 @@
                       id="name"
                       name="name"
                       size="60"
+                      aria-label="Enter your full name"
                       required
                     />
                   </td>
@@ -46,6 +48,7 @@
                       id="address"
                       name="address"
                       size="60"
+                      aria-label="Enter your Address"
                       required
                     />
                   </td>
@@ -58,6 +61,7 @@
                       id="phone"
                       name="phone"
                       size="60"
+                      aria-label="Enter your Phone"
                       required
                     />
                   </td>
@@ -70,6 +74,7 @@
                       id="email"
                       name="email"
                       size="60"
+                      aria-label="Enter your email"
                       required
                     />
                   </td>
@@ -77,20 +82,27 @@
                 <tr>
                   <td><label for="age">your age:</label></td>
                   <td>
-                    <input type="date" id="age" name="age" size="60" />
+                    <input
+                      type="date"
+                      id="age"
+                      name="age"
+                      size="60"
+                      aria-label="Enter your birth date"
+                    />
                   </td>
                 </tr>
               </table>
               <br />
 
-              <label for="delivery"><b>Anything else:</b></label
+              <label for="note"><b>Anything else:</b></label
               ><br />
               <textarea
-                id="delivery"
-                name="delivery"
+                id="note"
+                name="note"
                 rows="7"
                 cols="65"
                 placeholder="No more than 400 characters long"
+                aria-describedby="Leave a Note if you want"
               ></textarea>
               <br /><br />
               <button type="submit">Submit</button>
