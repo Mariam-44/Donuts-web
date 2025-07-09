@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="../imgs/donut.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="Contact">
+        <br><br><br>
+      <table width="90%" align="center" cellspacing="0" cellpadding="50">
+        <tr>
+          <td width="50%" align="center" valign="top">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14886.739909160078!2d-74.01236527209745!3d40.7146516903808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2seg!4v1721133195120!5m2!1sen!2seg"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </td>
+
+          <td width="50%" align="left" valign="top">
+            <font size="7"><b>Find US</b></font>
+            <form>
+              <table>
+                <tr>
+                  <td><label for="name">Name:</label></td>
+                  <td>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      size="60"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="address">Address:</label></td>
+                  <td>
+                    <input
+                      type="text"
+                      id="address"
+                      name="address"
+                      size="60"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="phone">Phone:</label></td>
+                  <td>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      size="60"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="email">Email:</label></td>
+                  <td>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      size="60"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="age">your age:</label></td>
+                  <td>
+                    <input type="date" id="age" name="age" size="60" />
+                  </td>
+                </tr>
+              </table>
+              <br />
+
+              <label for="delivery"><b>Anything else:</b></label
+              ><br />
+              <textarea
+                id="delivery"
+                name="delivery"
+                rows="7"
+                cols="65"
+                placeholder="No more than 400 characters long"
+              ></textarea>
+              <br /><br />
+              <button type="submit">Submit</button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

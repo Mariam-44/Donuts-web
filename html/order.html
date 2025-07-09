@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="../imgs/donut.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>order</title>
+  </head>
+  <body>
+    <div class="order">
+       <table width="90%" align="center" cellspacing="0" cellpadding="50">
+      <tr>
+        <td width="50%" align="center" valign="top">
+          <iframe
+            width="100%"
+            height="615"
+            src="https://www.youtube.com/embed/diwf4UAQWyo"
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
+        </td>
+
+        <td width="50%" align="left" valign="top">
+          <font size="7"><b>Design Your Dream Donut !</b></font>
+          <form>
+            <fieldset>
+              <legend>Donut</legend>
+
+              <p><b>Donut Type (Choose one):</b></p>
+              <input type="radio" id="glazed" name="donutType" value="glazed" />
+              <label for="glazed">Glazed</label><br />
+
+              <input
+                type="radio"
+                id="chocolate"
+                name="donutType"
+                value="chocolate"
+              />
+              <label for="chocolate">Chocolate</label><br />
+
+              <input
+                type="radio"
+                id="vanilla"
+                name="donutType"
+                value="vanilla"
+              />
+              <label for="vanilla">Vanilla</label><br />
+
+              <input
+                type="radio"
+                id="strawberry"
+                name="donutType"
+                value="strawberry"
+              />
+              <label for="strawberry">Strawberry</label><br /><br />
+
+              <p><b>Toppings (Choose as many as you want):</b></p>
+              <input
+                type="checkbox"
+                id="sprinkles"
+                name="topping"
+                value="sprinkles"
+              />
+              <label for="sprinkles">Sprinkles</label><br />
+
+              <input
+                type="checkbox"
+                id="coconut"
+                name="topping"
+                value="coconut"
+              />
+              <label for="coconut">Coconut Flakes</label><br />
+
+              <input
+                type="checkbox"
+                id="chocoChips"
+                name="topping"
+                value="choco_chips"
+              />
+              <label for="chocoChips">Chocolate Chips</label><br />
+
+              <input
+                type="checkbox"
+                id="caramel"
+                name="topping"
+                value="caramel"
+              />
+              <label for="caramel">Caramel Drizzle</label><br />
+
+              <input type="checkbox" id="nuts" name="topping" value="nuts" />
+              <label for="nuts">Crushed Nuts</label><br /><br />
+
+              <p><b>Choose Icing Flavor:</b></p>
+              <label for="icingFlavor">Icing:</label>
+              <select id="icingFlavor" name="icingFlavor">
+                <option value="" disabled selected>Select icing flavor</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="no_icing">No Icing</option></select
+              ><br /><br />
+
+              <p><b>How many donuts:</b></p>
+              <label for="donutCount">Quantity:</label>
+              <input type="number" id="donutCount" name="donutCount" min="1" />
+              <br /><br />
+              <button
+                type="submit"
+                style="background-color: transparent; color: black"
+              >
+                <big>Order</big></button
+              ><br />
+            </fieldset>
+          </form>
+        </td>
+      </tr>
+    </table> 
+    </div>
+    
+  </body>
+</html>
