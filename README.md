@@ -49,30 +49,6 @@
 
 ---
 
-## 🧱 File Structure
-
-├── Task 3/
-     ├── CSS/
-     │    └── style.css # (Empty or unused per HTML-only restriction)  
-     │    
-     └── html            
-     │    └── index.html # Home Page     
-     │    └── about.html # About Page   
-     │    └── order.html # Donut Order Page  
-     │    └── contact.html # Contact Form Page
-     │
-     └── imgs/
-     │    └── donut.png
-     │    └── background.png
-     │    └── about-img.webp
-     │    └── card1.webp
-     │    └── card2.webp
-     │    └── card3.webp
-     │        
-     └── README.md  # This file
-
----
-
 ## 🚀 How to Use
 
 1. Download or clone the entire folder `Donutailo/`.
